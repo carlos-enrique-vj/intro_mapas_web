@@ -1,0 +1,10 @@
+Actúa como un desarrollador experto en GIS Web y diseño de interfaces ejecutivas. 
+Ocupa el archivo index.html generado por el plugin qgis2web (basado en Leaflet) que muestra la Red Nacional de Caminos 2025 de la región Península de Yucatán.
+REGLA CRÍTICA: No elimines ni modifiques las referencias a los scripts locales de la carpeta "data/", "js/" o "css/", ni alteres la lógica interna con la que Leaflet carga las capas.
+Devuelve el código completo del "index.html" aplicando estas mejoras visuales:
+1.Agrega una barra superior fija (header) con estilo institucional moderno (tonos guinda/gris oscuro o neutro ejecutivo) con el título: "Monitor de la Red Nacional de Caminos (RNC 2025) - Región Yucatán".
+2.Mejora el aspecto visual del contenido de "Capas".
+3.Mejora el CSS de los popups de Leaflet y la leyenda para que usen la tipografía 'Inter' o 'Roboto' desde Google Fonts, eliminando el aspecto antiguo por defecto.
+4.Resolución del mapa web full (pantalla completa) para visualizar. 
+5.Mejora el aspecto de los íconos. Nota: hay archivos GeoJSON no es necesario que los leas, la solicitud radica en la mejora visual. 
+6.Regresa el html o código mejorado.
